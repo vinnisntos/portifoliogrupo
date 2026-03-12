@@ -8,12 +8,18 @@
 body {
     background-color: #f4f7f6;
     color: #333;
+    limit-width: 80%;
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 70%;
     margin: 0 auto;
     padding: 20px;
+    h1 {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2.5rem;
+        color: #fdfdfd;
+        margin-bottom: 10px;
+    }
 }
 
 header {
